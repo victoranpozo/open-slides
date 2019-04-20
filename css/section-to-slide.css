@@ -1,0 +1,32 @@
+/*=== Section = Slide === */
+section, .slide
+{
+	display:	-webkit-box;
+	display:	-ms-flexbox;
+	display:	flex;
+	-webkit-box-orient:	vertical;
+	-webkit-box-direction:	normal;
+	-ms-flex-direction:	column;
+	flex-direction:		column;
+/*	-webkit-box-pack:	center;
+	-ms-flex-pack:		center;
+	justify-content:	center;*/
+	min-height:		100vh;
+	/*Fullscreen*/
+	/* Prototyping? min-height: 720px (Baseline: 8px = .8rem)*/
+	padding:	0rem;
+	/*Fixed/Visible header? padding-top: 12rem; */
+	page-break-after:	always;
+	position:		relative;
+	word-wrap:		break-word;
+}
+
+@media (min-width: 1024px)
+{
+	section, .slide
+	{
+		padding-bottom: 0rem;
+		padding-top: 0rem;
+	}
+}
+

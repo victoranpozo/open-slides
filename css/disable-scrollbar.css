@@ -1,0 +1,32 @@
+/* -- Disable elastic scrolling/bounce:
+webslides.js will add .ws-ready automatically. Don't worry :) -- */
+.ws-ready, .ws-ready body
+{
+	height:		100%;
+	overflow:	hidden;
+	width:		100%;
+}
+
+.ws-ready.ws-ready-zoom
+{
+	overflow:	visible;
+}
+
+.ws-ready.ws-ready-zoom body
+{
+	overflow:	auto;
+}
+
+#webslides
+{
+	-ms-overflow-style:	none;
+	-webkit-overflow-scrolling:	touch;
+	height:		100vh;
+	overflow-x:	hidden;
+	overflow-y:	scroll;
+}
+
+#webslides::-webkit-scrollbar
+{
+    display: none;
+}

@@ -1,0 +1,17 @@
+/* Fade transition to all slides.
+* = All HTML elements will have those styles.*/
+section *
+{
+	-webkit-animation:	fadeIn	.6s	ease-in-out;
+	animation:		fadeIn	.6s	ease-in-out;
+}
+
+section	.background,
+section	.light,
+section	.dark
+{
+	-webkit-animation-duration:	0s;
+	animation-duration:		0s;
+}
+
+
