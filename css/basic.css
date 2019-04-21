@@ -58,13 +58,13 @@ img
         margin-right:   0px;
 
 	height:		100px;
-	background-color:	lightblue;
+	/*background-color:	lightblue;*/
 }
 
 .content
 {
 	height:		400px;
-	background-color:	lightgreen;
+	/*background-color:	lightgreen;*/
 	margin-left:	0px;
 	margin-right:	0px;
 	margin-bottom:	30px;
@@ -103,6 +103,6 @@ img
 	font-family:	"Courier New";
 
 	color:		rgb(0,0,255);
-	background-color:	pink;
+	/*background-color:	pink;*/
 }
 
