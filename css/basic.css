@@ -49,6 +49,11 @@ img
 	max-width:	900px;
 }
 
+.cover
+{
+	vertical-align:	center;	
+}
+
 .title
 {
         top:         	0px;
@@ -59,6 +64,8 @@ img
 
 	height:		100px;
 	/*background-color:	lightblue;*/
+
+	text-align:	center;
 }
 
 .content
