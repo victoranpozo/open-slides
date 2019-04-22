@@ -33,6 +33,12 @@ h3
 	font-size:	36px;
 }
 
+ul
+{
+        text-align:     left;
+        font-size:      28px;
+        margin-left:   150px;
+}
 img
 {
 	display:	block;
@@ -51,7 +57,7 @@ img
 
 .cover
 {
-	vertical-align:	center;	
+	margin-top:	200px;
 }
 
 .title
@@ -109,7 +115,7 @@ img
 	font-size:	16px;
 	font-family:	"Courier New";
 
-	color:		rgb(0,0,255);
+	color:		rgb(0,0,0);
 	/*background-color:	pink;*/
 }
 
