@@ -1,5 +1,5 @@
 /*=== Section = Slide === */
-section, .slide
+section
 {
 	display:	-webkit-box;
 	display:	-ms-flexbox;
@@ -19,14 +19,5 @@ section, .slide
 	page-break-after:	always;
 	position:		relative;
 	word-wrap:		break-word;
-}
-
-@media (min-width: 1024px)
-{
-	section, .slide
-	{
-		padding-bottom: 0rem;
-		padding-top: 0rem;
-	}
 }
 
