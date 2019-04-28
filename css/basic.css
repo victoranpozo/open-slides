@@ -43,7 +43,7 @@ img
 	
 	padding:	10px;
 	background:	rgba(255,255,255,1);
-	border:		4px solid rgba(0,0,0,.5);
+	border:		0px solid rgba(0,0,0,.8);
 	box-shadow:	5px 5px 5px rgba(0,0,0,.5);
 }
 
@@ -51,6 +51,8 @@ div
 {
 	margin:		0px;
 	padding:	0px;
+	vertical-align:	middle;
+	/*background:	lightpink;*/
 }
 
 .cover
@@ -73,8 +75,8 @@ div
 
 .content
 {
-	margin-top:	2%;
-	margin-bottom:	0%;
+	margin-top:	auto;
+	margin-bottom:	auto;
 	margin-left:	2%;
 	margin-right:	2%;
 	
@@ -88,8 +90,8 @@ div
 	float:		right;
 	margin:         2%;
 
-	width:		10%;
-	height:		15%;
+	width:		100px;
+	height:		100px;
 	
 	padding:	0px;
 	background:	rgba(255,255,255,1);
